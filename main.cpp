@@ -144,7 +144,7 @@ int main(int argc, char const *argv[])
     out.open("C://temp/out.txt"); // окрываем файл для записи
     if (out.is_open())
     {
-        for(std::string ip: ip_clean)
+        /*for(std::string ip: ip_clean)
             out << ip << std::endl;
         out << std::endl;
         for(std::string ip: f1Vector)
@@ -154,7 +154,7 @@ int main(int argc, char const *argv[])
             out << ip << std::endl;
         out << std::endl;
         for(std::string ip: f3Vector)
-            out << ip << std::endl;
+            out << ip << std::endl;*/
     }
     out.close();
 
