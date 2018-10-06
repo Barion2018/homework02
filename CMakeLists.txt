@@ -4,7 +4,7 @@ project(hello VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 add_executable(ip_filter main.cpp)
 
-set_target_properties(hello PROPERTIES
+set_target_properties(ip_filter PROPERTIES
   CXX_STANDARD 14
   CXX_STANDARD_REQUIRED ON
   COMPILE_OPTIONS -Wpedantic -Wall -Wextra
