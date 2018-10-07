@@ -149,13 +149,13 @@ int main()
         // Вывод на консоль
         for(std::string ip: ip_clean)
             std::cout << ip << std::endl;
-        std::cout << std::endl;
+        //std::cout << std::endl;
         for(std::string ip: f1Vector)
             std::cout << ip << std::endl;
-        std::cout << std::endl;
+        //std::cout << std::endl;
         for(std::string ip: f2Vector)
             std::cout << ip << std::endl;
-        std::cout << std::endl;
+        //std::cout << std::endl;
         for(std::string ip: f3Vector)
             std::cout << ip << std::endl;
 
